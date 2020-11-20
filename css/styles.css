@@ -39,4 +39,35 @@ video {
 
 .logo,
 .nav-menu {
+  text-transform: uppercase;
+}
+.logo,
+.nav-item {
+  white-space: nowrap;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  flex: 1 0 33.3%;
+  text-align: center;
+}
+
+.social-nav-item {
+  flex: 1 1 10%;
+}
+
+.logo a,
+.nav-menu a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
 }
