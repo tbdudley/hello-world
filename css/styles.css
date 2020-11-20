@@ -70,4 +70,17 @@ video {
   display: block;
   text-decoration: none;
   letter-spacing: 0.2rem;
+  padding: 0.8rem;
+  color: black;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-menu a {
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  border-bottom: 1px solid;
 }
