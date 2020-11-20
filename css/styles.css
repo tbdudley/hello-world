@@ -82,5 +82,31 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid white;
+  transition: all ease 0.1s;
 }
+
+.nav-menu a:hover {
+  border-bottom: 1px solid black;
+}
+
+/* hero header navbar changes */
+
+.hero-nav {
+  background: none;
+}
+
+.hero-nav .logo a,
+.hero-nav .nav-menu a {
+  color: white;
+}
+
+.hero-nav .nav-menu a:hover {
+  border-bottom: 1px solid white;
+}
+
+.hero-nav .nav-menu a {
+    border-bottom: 1px solid rgba {0, 0, 0, 0};
+}
+
+/* homepage hero */
