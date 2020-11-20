@@ -1,0 +1,38 @@
+/*basic styles sheet */
+html {
+  font-size: 100%;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* begin header navbar styles */
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  overflow: hidden;
+  background-color: white;
+}
