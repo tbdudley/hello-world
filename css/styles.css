@@ -34,7 +34,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 .logo,
@@ -71,7 +71,7 @@ video {
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color: black;
+  color: crimson;
 }
 
 .logo a {
@@ -82,7 +82,7 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   transition: all ease 0.1s;
 }
 
@@ -103,11 +103,11 @@ video {
 
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: white;
+  color: black;
 }
 
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .hero-nav .nav-menu a {
@@ -203,6 +203,38 @@ video {
   background: rgba(0, 0, 0, 0.3);
 }
 
+/*About Page CSS*/
+.about-page {
+  padding: 2rem 1rem 10rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+.about-text {
+  margin: 0 auto;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.about-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-social {
+  display: flex;
+  justify-content: start;
+}
+
+.about-social a {
+  color: crimson;
+  padding: 0 1rem;
+}
+
 /* footernav extra styles */
 .footer-logo {
   white-space: nowrap;
@@ -215,7 +247,7 @@ video {
 }
 
 .footer-social a {
-  color: black;
+  color: crimson;
   padding: 0 1rem;
 }
 
@@ -251,6 +283,21 @@ video {
     font-size: 2rem;
     line-height: 2rem;
   }
+
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .about-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
   .footer-nav {
     padding-top: 2rem;
   }
@@ -284,6 +331,15 @@ video {
   }
   .hero-nav {
     width: 100%;
+  }
+  .about-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
   .footer-nav {
     justify-content: space-evenly;
